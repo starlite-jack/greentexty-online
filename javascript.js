@@ -59,3 +59,10 @@
     });
   
   })();  
+
+    document.addEventListener('DOMContentLoaded', () => {
+    const textarea = document.getElementById("greentext-area");
+  if (textarea) {
+    textarea.focus();
+  }
+});

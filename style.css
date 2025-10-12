@@ -74,6 +74,15 @@ body {
   #controls button:active {
     transform: scale(0.97);
   }
+
+.bottom-text{
+    text-align: center;
+}
+  
+.bottom-text-link{
+    text-align: center;
+    color: #150BEE;
+}
   
   /* Responsive tweaks */
   @media (max-width: 768px) {
