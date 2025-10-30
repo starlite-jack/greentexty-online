@@ -32,7 +32,8 @@ body {
   
   textarea {
     width: 100%;
-    height: 300px;
+    height: 40vh;
+    min-height: 200px;
     padding: 12px;
     font-size: 15px;
     border: 1px solid #aaa;
@@ -83,10 +84,8 @@ body {
     color: #150BEE;
 }
   
-  /* Responsive tweaks */
   @media (max-width: 768px) {
     textarea {
-      height: 250px;
       font-size: 14px;
     }
     #controls {
@@ -102,8 +101,5 @@ body {
   @media (max-width: 480px) {
     header h1 {
       font-size: 18px;
-    }
-    textarea {
-      height: 200px;
     }
   }  
